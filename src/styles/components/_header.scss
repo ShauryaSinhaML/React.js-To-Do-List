@@ -1,0 +1,25 @@
+.header {
+    background: $offBlack;
+    color: white;
+    margin-bottom: $xl-size;
+    padding: $m-size 0;
+}
+
+// BEM naming convection Block element modifier
+.header__title {
+    font-size: $l-size;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: $offWhite;
+    font-size: $m-size;
+    font-weight: 500;
+    margin: 0;
+}
+
+@media (max-width: 45rem) {
+    .header {
+        margin-bottom: $m-size;
+    }
+}
